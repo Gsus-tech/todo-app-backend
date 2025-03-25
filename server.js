@@ -146,7 +146,8 @@ app.post('/api/user/signup', async (req, res) => {
       lastName,
       email,
       passwordHash,
-      status: 'active', // Set default status
+      status: 'active',
+      verified: false,
       createdAt: new Date(),
       updatedAt: new Date(),
     });

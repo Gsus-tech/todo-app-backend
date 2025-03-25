@@ -22,7 +22,7 @@ const userSchema = new mongoose.Schema({
     type: String,
     enum: ['active', 'inactive', 'suspended'],
   },
-  verfied: {
+  verified: {
     type: Boolean,
     default: false,
   },
